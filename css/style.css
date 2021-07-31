@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+h1,h2,h3,h4,h5,h6 ,p{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+/* navbar */
+.logo{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -6;
+    bottom: 0;
+    margin: auto;
+    text-align: center;
+}
+.logo {
+    font-size: 50px;
+
+}
+.menubar ul li a{
+    font-size: 25px;
+    margin-left: 60px;
+    margin-right: 60px;
+    position: relative;
+}
+.menubar ul li a::after{
+    position: absolute;
+    content: "";
+    height: 5px;
+    width:0%;
+    background: red;
+    left: 0;
+    bottom: 3px;
+    transition: .4s;   
+}
+.menubar ul li a:hover:after{
+    width: 100%;
+}
+/* competitive part  */
+#competitive{
+    background: red;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+}
+.heading{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+.heading h1{
+    font-size: 150px;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 90px;
+    color: #000;
+
+}
+.heading h2{
+    font-size: 120px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #ffffff;
+}
+.explore{
+    text-align: center;
+    color: #ffffff;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.explore i{
+    cursor: pointer;
+}
+/* mature part */
+#mature{
+    background: url(../image/bg-image/bottle.jpg) no-repeat center;
+    background-size: cover;
+}
+.text{
+    text-align: center;
+    padding-top: 400px;
+    padding-bottom: 80px;
+}
+.text h2{
+    font-size: 50px;
+    font-weight: 700;
+    color: #000;
+}
+.text p{
+    font-size: 22px;
+    color: #000;
+}
+.text a{
+    color: #000;
+    font-weight: 600;
+}
+/* possible part */
+#possible{
+    background: #f5f5f5;
+}
+.possible-text{
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom:200px;
+}
+.possible-text h2{
+    font-size: 50px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+.possible-text a{
+    background: 
+    linear-gradient(#f5f5f5,#f5f5f5) padding-box, /*this is your grey background*/
+     linear-gradient( #000, #000) border-box;
+    border-left: 2px solid transparent;    
+    padding: 40px 50px 40px 30px;
+    clip-path: polygon(0% 20%, 76% 20%, 100% 50%, 75% 77%, 0 77%);
+    font-size: 25px;
+    font-weight: 600;
+    color: #000;
+}
+/* helped part */
+.item{
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+.item h2{
+    font-size: 45px;
+    font-weight: 700;
+    padding-bottom: 50px;
+}
+.item img{
+    height: 150px;
+    height: 150px;
+    filter: brightness(.5) ;
+}
+/* featured part */
+#featured{
+    background: #f1f1f1;
+    position: relative;
+}
+.featured-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.featured-box{
+    background: #ffffff;
+}
+.featured-box h3{
+    font-size: 27px;
+    font-weight: 700;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.icon{
+    position: absolute;
+    top: 240px;
+    left: 1111px;
+    cursor: pointer;   
+}
+.icon-box{
+    padding: 10px;
+    background: #000;
+    color: #fff;
+}
+
+/* footer part */
+#footer{
+    background: #000;
+    color: #fff;
+}
+#footer .title{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    text-align: center;
+    
+}
+#footer .title h2{
+    font-size: 38px;
+    font-weight: 700;
+    padding-bottom: 35px;
+}
+#footer .title a{
+    font-size: 22px;
+    font-weight: 550;
+    color: #fff;
+    padding: 15px 20px;
+    border: 2px solid white;
+}
+#footer p{
+    font-size: 16px;
+    line-height: 30px;
+}
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.footer-box{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+}
+ .socila-media i{
+    font-size: 30px;
+    padding: 10px 18px;
+}
+#footer input{
+    background: none;
+    border: none;
+}
+#footer .email-box{
+    
+    text-align: left;
+    position: relative;
+}
+#footer .email-box::after{
+    position: absolute;
+    content: "";
+    height: 2px;
+    width:95%;
+    background: #ffffff;
+    left: 0;
+    bottom: -5px;
+
+}
+
+
